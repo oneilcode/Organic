@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   <header class="header" id="header">
+      <div class="container">
+         <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-4">
+               <div class="header__address">
+                  <ul class="header__items d-flex">
+                     <li class="header__link _icon-location">
+                        <a href="#">
+                           15/A, Nest Tower, NYC
+                        </a>
+                     </li>
+                     <li class="header__link _icon-email">
+                        <a href="mailto:info@webmail.com">
+                           info@webmail.com
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+               <div class="header__socials d-flex">
+                  <div class="lang">
+                     <select name="" id="input" class="lang__input" required>
+                        <option value="eng">English</option>
+                        <option value="rus">Russian</option>
+                     </select>
+                  </div>
+                  <ul class="socials d-flex">
+                     <li><a href="#" class="_icon-facebook"></a></li>
+                     <li><a href="#" class="_icon-twitter"></a></li>
+                     <li><a href="#" class="_icon-instagram"></a></li>
+                     <li><a href="#" class="_icon-linkedin"></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="line"></div>
+            </div>
+         </div>
+         <div class="row d-flex align-items-center">
+            <div class="col-lg-3">
+               <a href="#" class="logo">
+                  <img src="img/logo.png" alt="logo">
+               </a>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+               <nav class="menu">
+                  <ul class="menu__items d-flex justify-content-around">
+                     <li class="menu__link">
+                        <a href="#">Home +</a>
+                     </li>
+                     <li class="menu__link">
+                        <a href="#">About +</a>
+                     </li>
+                     <li class="menu__link">
+                        <a href="#">Shop +</a>
+                     </li>
+                     <li class="menu__link">
+                        <a href="#">Page +</a>
+                     </li>
+                     <li class="menu__link">
+                        <a href="#">Contact</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="col-lg-3">
+               <div class="menu-btns d-flex align-items-center justify-content-end">
+                  <div class="menu-btns__login">
+                     <a href="#" class="btn">Login</a>
+                  </div>
+                  <ul class="menu-btns__list d-flex">
+                     <li class="menu-btns__item"><a href="#" class="search"></a></li>
+                     <li class="menu-btns__item"><a href="#" class="cart">
+                           <span class="cart__number">0</span>
+                        </a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <section class="main" id="main">
+      <div class="container container-main">
+         <div class="row">
+            <div class="col-lg-5">
+               <div class="offer">
+                  <h1 class="offer__title">
+                     <span class="offer__title-color">body needs</span> organic food good health
+                  </h1>
+                  <a class="offer__btn btn">SHOP NOW</a>
+               </div>
+            </div>
+            <div class="col-lg-7 d-flex align-items-center">
+               <div class="offer-products">
+                  <img src="img/mainphoto.png" alt="vegatables" class="offer-products__main">
+                  <span class="offer-products__tag"><img src="img/maintag.svg" alt="tag"></span>
+               </div>
+
+            </div>
+         </div>
+         <div class="container container-benefits">
+            <div class="row d-flex justify-content-around">
+               <div class="col-lg-3">
+                  <div class="benefit-card d-flex">
+                     <img src="img/icon1.svg" alt="free shiping">
+                     <div class="benefit-card__info">
+                        <p class="benefit-card__title">
+                           Free Shipping
+                        </p>
+                        <p class="benefit-card__text">
+                           On all orders over $35.00
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="benefit-card d-flex">
+                     <img src="img/icon2.svg" alt="free shiping">
+                     <div class="benefit-card__info">
+                        <p class="benefit-card__title">
+                           15 day returns
+                        </p>
+                        <p class="benefit-card__text">
+                           Moneyback guarantee
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="benefit-card d-flex">
+                     <img src="img/icon3.svg" alt="free shiping">
+                     <div class="benefit-card__info">
+                        <p class="benefit-card__title">
+                           Fresh product
+                        </p>
+                        <p class="benefit-card__text">
+                           Best online organic food
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="benefit-card d-flex">
+                     <img src="img/icon4.svg" alt="free shiping">
+                     <div class="benefit-card__info">
+                        <p class="benefit-card__title">
+                           Summer offer
+                        </p>
+                        <p class="benefit-card__text">
+                           On all orders over
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="about" id="about">
+      <div class="container">
+         <div class="row d-flex align-items-center">
+            <div class="col-lg-3">
+               <img src="img/aboutus1.jpg" alt="plants">
+            </div>
+            <div class="col-lg-3">
+               <div class="about__us">
+                  <img src="img/aboutus2.jpg" alt="plants">
+                  <p class="about__us_experience">15+ Years Experience</p>
+               </div>
+
+            </div>
+            <div class="col-lg-6">
+               <h2 class="about__title title">
+                  High quality organic food store
+               </h2>
+               <p class="about__text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type specimen book. It has survived not
+                  only five centuries, but also the leap into electronic typesetting,
+                  remaining essentially unchanged.
+               </p>
+               <div class="about__review">
+                  <p class="about__review_text">
+                     <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore</i>
+                  </p>
+               </div>
+               <p class="about__user">Hasan Mahmud</p>
+               <p class="about__position">Shop Director</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="categories" id="categories">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-3">
+               <div class="category">
+                  <div class="category__img">
+                     <img src="img/category1.png" alt="Vegetables">
+                  </div>
+                  <div class="category__info">
+                     <h5 class="category__title">
+                        Vegetables
+                     </h5>
+                     <p class="category__text">
+                        Purchasing from select family farmers who farm onganically.
+                     </p>
+                     <a href="#" class="btn">SHOP NOW</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3">
+               <div class="category">
+                  <div class="category__img">
+                     <img src="img/category2.png" alt="Vegetables">
+                  </div>
+                  <div class="category__info">
+                     <h5 class="category__title">
+                        Fresh Fruits
+                     </h5>
+                     <p class="category__text">
+                        Purchasing from select family farmers who farm onganically.
+                     </p>
+                     <a href="#" class="btn">SHOP NOW</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3">
+               <div class="category">
+                  <div class="category__img">
+                     <img src="img/category3.png" alt="Vegetables">
+                  </div>
+                  <div class="category__info">
+                     <h5 class="category__title">
+                        Eggpent
+                     </h5>
+                     <p class="category__text">
+                        Purchasing from select family farmers who farm onganically.
+                     </p>
+                     <a href="#" class="btn">SHOP NOW</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3">
+               <div class="category">
+                  <div class="category__img">
+                     <img src="img/category4.png" alt="Vegetables">
+                  </div>
+                  <div class="category__info">
+                     <h5 class="category__title">
+                        Tomato
+                     </h5>
+                     <p class="category__text">
+                        Purchasing from select family farmers who farm onganically.
+                     </p>
+                     <a href="#" class="btn">SHOP NOW</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="popular" id="popular">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <h2 class="popular__title title d-flex justify-content-center">
+                  Popular Products
+               </h2>
+            </div>
+            <div class="col-lg-12">
+               <div class="pagination d-flex justify-content-center">
+                  <a href="#" class="pagination-btn btn">All</a>
+                  <a href="#" class="pagination-btn btn">Food</a>
+                  <a href="#" class="pagination-btn btn">Organic</a>
+                  <a href="#" class="pagination-btn btn">Fruits</a>
+                  <a href="#" class="pagination-btn btn">Health</a>
+                  <a href="#" class="pagination-btn btn">Seafood</a>
+               </div>
+            </div>
+         </div>
+         <div class="container-card overflow-hidden">
+            <div class="row gy-5">
+               <div class="p-3 col-lg-4">
+                  <div class="popular-card">
+                     <div class="popular-card__photo">
+                        <div class="popular-card__icons d-flex flex-column">
+                           <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                        </div>
+                        <div class="popular-card__img">
+                           <img src="img/popular1.png" alt="Blackberry Fruit">
+                        </div>
+                     </div>
+
+                     <div class="popular-card__info d-flex flex-column">
+                        <h6 class="popular-card__title">
+                           Blackberry Fruit
+                        </h6>
+                        <span class="popular-card__price">
+                           $10.00 - $20.00
+                        </span>
+                        <div class="rating-mini">
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                        <a class="popular-card__btn btn">SHOP NOW</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="p-3 col-lg-4">
+                  <div class="popular-card popular-card_avo">
+                     <div class="popular-tag">Off 50%</div>
+                     <div class="popular-card__photo">
+                        <div class="popular-card__icons d-flex flex-column">
+                           <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                        </div>
+                        <div class="popular-card__img">
+                           <img src="img/popular2.png" alt="Blackberry Fruit">
+                        </div>
+                     </div>
+
+                     <div class="popular-card__info d-flex flex-column">
+                        <h6 class="popular-card__title">
+                           Avocado Fruit
+                        </h6>
+                        <span class="popular-card__price">
+                           $30.00 - $15.00
+                        </span>
+                        <div class="rating-mini">
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                        <a class="popular-card__btn btn">SHOP NOW</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="p-3 col-lg-4">
+                  <div class="popular-card">
+                     <div class="popular-card__photo">
+                        <div class="popular-card__icons d-flex flex-column">
+                           <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                        </div>
+                        <div class="popular-card__img">
+                           <img src="img/popular3.png" alt="Blackberry Fruit">
+                        </div>
+                     </div>
+
+                     <div class="popular-card__info d-flex flex-column">
+                        <h6 class="popular-card__title">
+                           Kiwifruit Vitamin
+                        </h6>
+                        <span class="popular-card__price">
+                           $17.00
+                        </span>
+                        <div class="rating-mini">
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                        <a class="popular-card__btn btn">SHOP NOW</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="popular-card">
+                     <div class="popular-card__photo">
+                        <div class="popular-card__icons d-flex flex-column">
+                           <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                        </div>
+                        <div class="popular-card__img">
+                           <img src="img/popular4.png" alt="Blackberry Fruit">
+                        </div>
+                     </div>
+
+                     <div class="popular-card__info d-flex flex-column">
+                        <h6 class="popular-card__title">
+                           Lemon
+                        </h6>
+                        <span class="popular-card__price">
+                           $10.00 - $20.00
+                        </span>
+                        <div class="rating-mini">
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                        <a class="popular-card__btn btn">SHOP NOW</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="popular-card">
+                     <div class="popular-card__photo">
+                        <div class="popular-card__icons d-flex flex-column">
+                           <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                        </div>
+                        <div class="popular-card__img">
+                           <img src="img/popular5.png" alt="Blackberry Fruit">
+                        </div>
+                     </div>
+
+                     <div class="popular-card__info d-flex flex-column">
+                        <h6 class="popular-card__title">
+                           Purple onion
+                        </h6>
+                        <span class="popular-card__price">
+                           $30.00 - $15.00
+                        </span>
+                        <div class="rating-mini">
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                        <a class="popular-card__btn btn">SHOP NOW</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="popular-card">
+                     <div class="popular-card__photo">
+                        <div class="popular-card__icons d-flex flex-column">
+                           <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                           <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                        </div>
+                        <div class="popular-card__img popular-card__img_nuts">
+                           <img src="img/popular6.png" alt="Blackberry Fruit">
+                        </div>
+                     </div>
+
+                     <div class="popular-card__info d-flex flex-column">
+                        <h6 class="popular-card__title">
+                           Brown Almonds
+                        </h6>
+                        <span class="popular-card__price">
+                           $17.00
+                        </span>
+                        <div class="rating-mini">
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span class="active"></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                        <a class="popular-card__btn btn">SHOP NOW</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <section class="discount" id="discount">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12 d-flex">
+               <div class="discounts d-flex">
+                  <div class="discounts__card">
+                     <img src="img/discount1.png" alt="iscount">
+                     <div class="discounts__info">
+                        <p class="discounts__text">
+                           Save up to 50%
+                        </p>
+                        <h3 class="discounts__title">
+                           THE BLUEPRINT TO HEALTH
+                        </h3>
+                        <a href="#" class="discounts__btn discounts__btn_orange btn">BUY NOW</a>
+                     </div>
+                  </div>
+                  <div class="discounts__card">
+                     <img src="img/discount2.png" alt="iscount">
+                     <div class="discounts__info">
+                        <p class="discounts__text">
+                           Save up to 50%
+                        </p>
+                        <h3 class="discounts__title">
+                           THE BLUEPRINT TO HEALTH
+                        </h3>
+                        <a href="#" class="discounts__btn discounts__btn_green btn">BUY NOW</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="feature" id="feature">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <h2 class="feature__title title d-flex justify-content-center">
+                  Featured Products
+               </h2>
+            </div>
+         </div>
+         <div class="row d-flex">
+            <div class="col-lg-4">
+               <div class="popular-card">
+                  <div class="popular-card__photo">
+                     <div class="popular-card__icons d-flex flex-column">
+                        <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                        <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                        <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                     </div>
+                     <div class="popular-card__img">
+                        <img src="img/feature1.png" alt="Blackberry Fruit">
+                     </div>
+                  </div>
+
+                  <div class="popular-card__info d-flex flex-column">
+                     <h6 class="popular-card__title">
+                        Red Pepper
+                     </h6>
+                     <span class="popular-card__price">
+                        $10.00 - $20.00
+                     </span>
+                     <div class="rating-mini">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                     </div>
+                     <a class="popular-card__btn btn">SHOP NOW</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4">
+               <div class="popular-card popular-card_avo">
+                  <div class="popular-tag">Off 50%</div>
+                  <div class="popular-card__photo">
+                     <div class="popular-card__icons d-flex flex-column">
+                        <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                        <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                        <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                     </div>
+                     <div class="popular-card__img">
+                        <img src="img/feature2.png" alt="Blackberry Fruit">
+                     </div>
+                  </div>
+
+                  <div class="popular-card__info d-flex flex-column">
+                     <h6 class="popular-card__title">
+                        Cabbage
+                     </h6>
+                     <span class="popular-card__price">
+                        $30.00 - $15.00
+                     </span>
+                     <div class="rating-mini">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                     </div>
+                     <a class="popular-card__btn btn">SHOP NOW</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="popular-card">
+                  <div class="popular-card__photo">
+                     <div class="popular-card__icons d-flex flex-column">
+                        <button type="button" class="popular-card__icon popular-card__icon_arrows"></button>
+                        <button type="button" class="popular-card__icon popular-card__icon_like"></button>
+                        <button type="button" class="popular-card__icon popular-card__icon_frame"></button>
+                     </div>
+                     <div class="popular-card__img">
+                        <img src="img/feature3.png" alt="Blackberry Fruit">
+                     </div>
+                  </div>
+
+                  <div class="popular-card__info d-flex flex-column">
+                     <h6 class="popular-card__title">
+                        Tomato
+                     </h6>
+                     <span class="popular-card__price">
+                        $17.00
+                     </span>
+                     <div class="rating-mini">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                     </div>
+                     <a class="popular-card__btn btn">SHOP NOW</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-12 d-flex justify-content-center">
+            <div class="feature__btn btn-arrow _icon-fatarrow _icon-fatarrow_left"></div>
+            <div class="feature__btn btn-arrow _icon-fatarrow"></div>
+         </div>
+      </div>
+   </section>
+
+   <section class="achievements" id="achievements">
+      <div class="container container-achievements">
+         <div class="row">
+            <div class="col-lg-12 d-flex justify-content-around">
+               <div class="achievement">
+                  <span class="achievement_number">1570+</span>
+                  <p class="achievement_text">
+                     Total Products
+                  </p>
+               </div>
+               <div class="achievement">
+                  <span class="achievement_number">3560+</span>
+                  <p class="achievement_text">
+                     Satisfied Clients
+                  </p>
+               </div>
+               <div class="achievement">
+                  <span class="achievement_number">4550+</span>
+                  <p class="achievement_text">
+                     Project Completed
+                  </p>
+               </div>
+               <div class="achievement">
+                  <span class="achievement_number">130+</span>
+                  <p class="achievement_text">
+                     Awards Winning
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="review" id="review">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="review__photo d-flex">
+                  <img src="img/review3.png" class="review__photo_test review__photo_test1" alt="TESIMONIALS">
+                  <img src="img/review.png" class="review__photo_test review__photo_test2" alt="TESIMONIALS">
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="review__card">
+                  <p class="review__text">
+                     <i>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Ut enim ad minim veniam.”</i>
+                  </p>
+                  <div class="user">
+                     <img src="img/review2.png" alt="user">
+                     <p class="user__name">Alison Parker</p>
+                     <p class="user__proffesion">Product Manager</p>
+                     <div class="rating-mini rating-mini_review">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                     </div>
+                  </div>
+                  <div class="review__dots d-flex justify-content-center">
+                     <button type="button" class="dot"></button>
+                     <button type="button" class="dot"></button>
+                     <button type="button" class="dot"></button>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="blog" id="blog">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="blog__title title d-flex justify-content-center">
+                  LATEST BLOG
+               </h2>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog__card">
+                  <img src="img/blog1.png" alt="lemon">
+                  <div class="blog__info">
+                     <ul class="blog__items d-flex justify-content-between">
+                        <li class="blog__item _icon-admin d-flex">
+                           <a href="#">By: Admin</a>
+                        </li>
+                        <li class="blog__item _icon-admin d-flex">
+                           <a href="#">Services</a>
+                        </li>
+                        <li class="blog__item _icon-comment d-flex">
+                           <a href="#">04 Comment</a>
+                        </li>
+                     </ul>
+                     <h5 class="blogs__title">
+                        Common engine oil
+                        problems and solutions
+                     </h5>
+                     <div class="blog__more d-flex align-items-center justify-content-between">
+                        <p class="blog__date _icon-date">
+                           August 27, 2021
+                        </p>
+                        <a href="#" class="blog__link"> READ MORE &#62</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog__card">
+                  <img src="img/blog2.png" alt="lemon">
+                  <div class="blog__info">
+                     <ul class="blog__items d-flex justify-content-between">
+                        <li class="blog__item _icon-admin d-flex">
+                           <a href="#">By: Admin</a>
+                        </li>
+                        <li class="blog__item _icon-admin d-flex">
+                           <a href="#">Services</a>
+                        </li>
+                        <li class="blog__item _icon-comment d-flex">
+                           <a href="#">04 Comment</a>
+                        </li>
+                     </ul>
+                     <h5 class="blogs__title">
+                        How and when to replace brack rotors
+                     </h5>
+                     <div class="blog__more d-flex align-items-center justify-content-between">
+                        <p class="blog__date _icon-date">
+                           August 27, 2021
+                        </p>
+                        <a href="#" class="blog__link"> READ MORE &#62</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog__card">
+                  <img src="img/blog3.png" alt="lemon">
+                  <div class="blog__info">
+                     <ul class="blog__items d-flex justify-content-between">
+                        <li class="blog__item _icon-admin d-flex">
+                           <a href="#">By: Admin</a>
+                        </li>
+                        <li class="blog__item _icon-admin d-flex">
+                           <a href="#">Services</a>
+                        </li>
+                        <li class="blog__item _icon-comment d-flex">
+                           <a href="#">04 Comment</a>
+                        </li>
+                     </ul>
+                     <h5 class="blogs__title">
+                        Elenance, Services and repirs
+                     </h5>
+                     <div class="blog__more d-flex align-items-center justify-content-between">
+                        <p class="blog__date _icon-date">
+                           August 27, 2021
+                        </p>
+                        <a href="#" class="blog__link"> READ MORE &#62</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="subscribe" id="subscribe">
+      <div class="container container-subscribe">
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="subscribe__photoes d-flex">
+                  <img src="img/subscribe.png" class="subscribe__photoes_salad" alt="Salad">
+
+               </div>
+            </div>
+            <div class="col-lg-1 d-flex align-items-center">
+               <img src="img/subscribearrow.svg" alt="arrow">
+            </div>
+            <div class="col-lg-7">
+               <h2 class="subscribe__title title d-flex justify-content-start">
+                  Subscribe To Newsletter
+               </h2>
+               <form action="#" class="subscribe__form d-flex">
+                  <input type="email" name="email" class="subscribe__input" placeholder="Enter your email address..."
+                     required>
+                  <button type="submit" class="subscribe__btn btn">SUBSCRIBE NOW</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer class="footer" id="footer">
+      <div class="container">
+         <div class="row d-flex justify-content-between">
+            <div class="col-lg-3">
+               <a href="#" class="footer__logo logo">
+                  <img src="img/logofooter.svg" alt="logo">
+               </a>
+               <p class="footer__text">
+                  There are many variations of passages of Lorem Ipsum available,
+                  but the majority have suffered alteration in some form.
+               </p>
+               <ul class="socials d-flex">
+                  <li><a href="#" class="_icon-facebook"></a></li>
+                  <li><a href="#" class="_icon-twitter"></a></li>
+                  <li><a href="#" class="_icon-instagram"></a></li>
+                  <li><a href="#" class="_icon-linkedin"></a></li>
+               </ul>
+            </div>
+            <div class="col-lg-2">
+
+               <h6 class="footer__title">
+                  Quick Link
+               </h6>
+               <ul class="footer__links">
+                  <li class="footer__link"><a href="#">Home</a></li>
+                  <li class="footer__link"><a href="#">Featured</a></li>
+                  <li class="footer__link"><a href="#">About Us</a></li>
+                  <li class="footer__link"><a href="#">Product</a></li>
+                  <li class="footer__link"><a href="#">Blog</a></li>
+               </ul>
+
+            </div>
+            <div class="col-lg-3">
+               <h6 class="footer__title">
+                  Blog Post
+               </h6>
+               <div class="footer__post d-flex">
+                  <img src="img/footer1.png" alt="post">
+                  <div class="footer__post_info">
+                     <p class="footer__post_title">
+                        Choosing Plants For Water Conservation
+                     </p>
+                     <span class="footer__post_date">
+                        August 27, 2021
+                     </span>
+                  </div>
+               </div>
+               <div class="footer__post d-flex">
+                  <img src="img/footer2.png" alt="post">
+                  <div class="footer__post_info">
+                     <p class="footer__post_title">
+                        Maintaining Your Yard This Year
+
+                     </p>
+                     <span class="footer__post_date">
+                        August 27, 2021
+                     </span>
+                  </div>
+               </div>
+               <div class="footer__post d-flex">
+                  <img src="img/footer3.png" alt="post">
+                  <div class="footer__post_info">
+                     <p class="footer__post_title">
+                        Tips For Managing Your Irrigation System
+
+                     </p>
+                     <span class="footer__post_date">
+                        August 27, 2021
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3">
+               <h6 class="footer__title">
+                  Officeal Info
+               </h6>
+               <ul class="footer__contacts">
+                  <li class="footer__contact">
+                     <a href="#">30 Commercial Road Fratton, Australia</a>
+                  </li>
+                  <li class="footer__contact">
+                     <a href="tel:18884521829">1-888-452-1829</a>
+                  </li>
+               </ul>
+               <div class="footer__hours">
+                  <p class="footer__hours_title">
+                     Open Hours:
+                  </p>
+                  <p class="footer__hours_open">
+                     Mon – Sat: 8 am – 5 pm,
+                     Sunday: CLOSED
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <p class="copyright d-flex justify-content-center">Copyright © 2021, Orgamic. All Rights Reserved.</p>
+
+   </footer>
+</body>
+
+</html>
